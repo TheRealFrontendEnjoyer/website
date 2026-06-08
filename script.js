@@ -8,8 +8,12 @@ const about = document.getElementById("about");
 const updates = document.getElementById("updates");
 const btn = document.getElementById("aboutbtn");
 const btn2 = document.getElementById("updatesbtn");
+const btn3 = document.getElementById("blogbtn");
 const closebtn = document.getElementById("closebtn");
 const closebtn2 = document.getElementById("closebtn2");
+const mousehover = document.getElementById("mousehover");
+
+mousehover.volume = 0.2;
 
 btn.addEventListener("click", () => {
     about.style.display = "flex";
@@ -85,3 +89,18 @@ document.getElementById("aboutbtn").addEventListener("click", () => {
 document.getElementById("updatesbtn").addEventListener("click", () => {
     selectsound.play()
 })
+
+btn.addEventListener("mouseenter", () => {
+  mousehover.currentTime = 0;
+  mousehover.play();
+});
+
+btn2.addEventListener("mouseenter", () => {
+  mousehover.currentTime = 0;
+  mousehover.play();
+});
+
+btn3.addEventListener("mouseenter", () => {
+  mousehover.currentTime = 0;
+  mousehover.play();
+});
