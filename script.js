@@ -2,15 +2,45 @@ const box = document.getElementById("box");
 const box2 = document.getElementById("box2");
 var moosic = document.getElementById("backgroundmoosic");
 var startsound = document.getElementById("startsound");
+var selectsound = document.getElementById("selectsound");
 
 const about = document.getElementById("about");
+const updates = document.getElementById("updates");
 const btn = document.getElementById("aboutbtn");
+const btn2 = document.getElementById("updatesbtn");
+const closebtn = document.getElementById("closebtn");
+const closebtn2 = document.getElementById("closebtn2");
 
 btn.addEventListener("click", () => {
     about.style.display = "flex";
-    requestAnimationFrame(() => {
+
+    setTimeout(() => {
         about.classList.add("show");
-    });
+    }, 10);
+});
+
+closebtn.addEventListener("click", () => {
+    about.classList.remove("show");
+
+    setTimeout(() => {
+        about.style.display = "none";
+    }, 500);
+});
+
+btn2.addEventListener("click", () => {
+    updates.style.display = "flex";
+
+    setTimeout(() => {
+        updates.classList.add("show");
+    }, 10);
+});
+
+closebtn2.addEventListener("click", () => {
+    updates.classList.remove("show");
+
+    setTimeout(() => {
+        updates.style.display = "none";
+    }, 500);
 });
 
 box2.style.display = "none";
@@ -48,6 +78,10 @@ document.getElementById("fadeBtn").addEventListener("click", () => {
   }, 50);
 });
 
-document.getElementById("about").addEventListener("click", () => {
-    
+document.getElementById("aboutbtn").addEventListener("click", () => {
+    selectsound.play()
+})
+
+document.getElementById("updatesbtn").addEventListener("click", () => {
+    selectsound.play()
 })
