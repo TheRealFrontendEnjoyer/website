@@ -10,23 +10,7 @@
     <div class="parent404">
         <h1 id="text404">What are you doing here?</h1>
     </div>
-
-    <script>
-        window.addEventListener("load", () => {
-            const text = document.getElementById("text404");
-
-            setTimeout(() => {
-                text.classList.add("visible");
-            }, 50);
-
-            setTimeout(() => {
-                if (window.history.length > 1) {
-                    window.history.back();
-                } else {
-                    window.location.href = "/";
-                }
-            }, 5000);
-        });
-    </script>
+    
+    <script src="404script.js"></script>
 </body>
 </html>
