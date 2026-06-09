@@ -281,7 +281,7 @@ audio { display:none;}
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: gray;
 }
 
 .parent404 h1 {
@@ -291,7 +291,10 @@ audio { display:none;}
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: 20px;
-    transition: opacity 5s ease;
-
     opacity: 0;
+    transition: opacity 5s ease;
+}
+
+.parent404 h1.visible {
+    opacity: 0.5;
 }

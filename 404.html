@@ -15,11 +15,13 @@
         window.addEventListener("load", () => {
             const text = document.getElementById("text404");
 
-            text.style.opacity = "0.5";
+            setTimeout(() => {
+                text.classList.add("visible");
+            }, 50);
 
             setTimeout(() => {
-                if (document.referrer) {
-                    window.location.href = document.referrer;
+                if (window.history.length > 1) {
+                    window.history.back();
                 } else {
                     window.location.href = "/";
                 }
