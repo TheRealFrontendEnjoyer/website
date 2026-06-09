@@ -18,8 +18,8 @@
             text.style.opacity = "0.5";
 
             setTimeout(() => {
-                if (window.history.length > 1) {
-                    window.history.back();
+                if (document.referrer) {
+                    window.location.href = document.referrer;
                 } else {
                     window.location.href = "/";
                 }
