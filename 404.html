@@ -46,8 +46,22 @@
             font-style: normal;
             font-variation-settings: "wdth" 100;
             font-size: 20px;
-            opacity: 0.5;
+            opacity: 0.65;
             transition: opacity 5s ease;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0, 0); }
+            20% { transform: translate(-2px, 1px); }
+            40% { transform: translate(2px, -1px); }
+            60% { transform: translate(-1px, -2px); }
+            80% { transform: translate(1px, 2px); }
+            100% { transform: translate(0, 0); }
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.2s infinite;
         }
     </style>
 
@@ -60,6 +74,7 @@
     <script>
         window.addEventListener("DOMContentLoaded", () => {
             const text = document.getElementById("text404");
+            text.classList.add("shake");
 
             const messages = [
                 "What are you doing here?",
