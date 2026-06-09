@@ -46,6 +46,16 @@ h2 {
     margin: 10px;
 }
 
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 20px;
+    transition: text-shadow 0.3s ease;
+}
+
 .nav-link {
     margin-top: 25px;
     display: inline-block;
