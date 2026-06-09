@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get out.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent404">
+        <h1 id="text404">What are you doing here?</h1>
+    </div>
+
+    <script>
+        window.addEventListener("load", () => {
+            const text = document.getElementById("text404");
+
+            text.style.opacity = "0.5";
+
+            setTimeout(() => {
+                if (document.referrer) {
+                    window.location.href = document.referrer;
+                } else {
+                    window.location.href = "/";
+                }
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

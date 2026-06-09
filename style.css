@@ -271,3 +271,27 @@ audio { display:none;}
     75%  { opacity: 1; }
     100% { opacity: 0.65; }
 }
+
+/* 404 CSS */
+
+.parent404 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.parent404 h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 20px;
+    transition: opacity 5s ease;
+
+    opacity: 0;
+}
