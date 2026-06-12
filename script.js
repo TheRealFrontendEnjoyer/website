@@ -51,6 +51,9 @@ box2.style.display = "none";
 
 document.getElementById("fadeBtn").addEventListener("click", () => {
 
+  document.querySelector('.sound-badge').classList.add('show');
+  document.querySelector('.floor-label').classList.add('show');
+
     startsound.play()
 
     document.getElementById("fadeBtn").disabled = true;
