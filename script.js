@@ -13,6 +13,8 @@ const closebtn = document.getElementById("closebtn");
 const closebtn2 = document.getElementById("closebtn2");
 const mousehover = document.getElementById("mousehover");
 
+const blackscreen = document.getElementById("blackscreen");
+
 mousehover.volume = 0.2;
 
 btn.addEventListener("click", () => {
@@ -106,4 +108,24 @@ btn2.addEventListener("mouseenter", () => {
 btn3.addEventListener("mouseenter", () => {
   mousehover.currentTime = 0;
   mousehover.play();
+});
+
+btn3.addEventListener("click", () => {
+    blackscreen.classList.add("active");
+
+    const fadeTime = 3000;
+    const interval = 50;
+    const volumeStep = moosic.volume / (fadeTime / interval);
+
+    const fade = setInterval(() => {
+        moosic.volume = Math.max(0, moosic.volume - volumeStep);
+
+        if (moosic.volume <= 0) {
+            clearInterval(fade);
+        }
+    }, interval);
+
+    setTimeout(() => {
+        window.location.href = "/blog";
+    }, fadeTime);
 });
