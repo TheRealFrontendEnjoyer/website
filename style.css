@@ -202,6 +202,7 @@ audio { display:none;}
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 .infobox h2 {
@@ -210,7 +211,8 @@ audio { display:none;}
     font-size: 14px;
     line-height: 1.9;
     color: rgba(185, 210, 240, 0.62);
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .infobox h3 {
@@ -219,7 +221,8 @@ audio { display:none;}
     font-size: 14px;
     line-height: 1.9;
     color: rgba(185, 210, 240, 0.62);
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .panel-title {
