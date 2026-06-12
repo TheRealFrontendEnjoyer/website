@@ -1,3 +1,5 @@
+const btn = document.getElementById("closebtn");
+
 const canvas = document.getElementById("trail");
 const ctx = canvas.getContext("2d");
 
@@ -84,6 +86,9 @@ function animate() {
 
 animate();
 
+const blackscreen = document.getElementById("blackscreen");
+const blackscreen2 = document.getElementById("blackscreen2");
+
 const text = "The thought chamber. ";
 let position = 0;
 
@@ -101,4 +106,22 @@ window.onload = function() {
     blackscreen.classList.add("active");
 }
 
-const blackscreen = document.getElementById("blackscreen");
+btn.addEventListener("click", () => {
+    blackscreen2.classList.add("active");
+
+    const fadeTime = 3000;
+    const interval = 50;
+    const volumeStep = audioToPlay.volume / (fadeTime / interval);
+
+    const fade = setInterval(() => {
+        audioToPlay.volume = Math.max(0, audioToPlay.volume - volumeStep);
+
+        if (audioToPlay.volume <= 0) {
+            clearInterval(fade);
+        }
+    }, interval);
+
+    setTimeout(() => {
+        window.location.href = "../";
+    }, fadeTime);
+});

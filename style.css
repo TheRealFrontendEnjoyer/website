@@ -312,6 +312,21 @@ audio { display:none;}
     opacity: 1;
 }
 
+.blackscreen2 {
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    z-index: 99999;
+
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity 3s ease;
+}
+
+.blackscreen2.active {
+    opacity: 0;
+}
+
 /* text proprieties */
 
 .nav-link {

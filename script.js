@@ -14,6 +14,11 @@ const closebtn2 = document.getElementById("closebtn2");
 const mousehover = document.getElementById("mousehover");
 
 const blackscreen = document.getElementById("blackscreen");
+const blackscreen2 = document.getElementById("blackscreen2");
+
+window.onload = function() {
+    blackscreen2.classList.add("active");
+}
 
 mousehover.volume = 0.2;
 
