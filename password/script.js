@@ -12,7 +12,7 @@ function submit() {
     if (!val) return;
 
     sessionStorage.setItem('pwd', val);
-    window.location.href = 'verify.html';
+    window.location.href = '/verify';
 }
 
 btn.addEventListener('click', submit);
