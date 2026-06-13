@@ -9,6 +9,7 @@ const updates = document.getElementById("updates");
 const btn = document.getElementById("aboutbtn");
 const btn2 = document.getElementById("updatesbtn");
 const btn3 = document.getElementById("blogbtn");
+const btn4 = document.getElementById("guestbookbtn");
 const closebtn = document.getElementById("closebtn");
 const closebtn2 = document.getElementById("closebtn2");
 const mousehover = document.getElementById("mousehover");
@@ -132,5 +133,25 @@ btn3.addEventListener("click", () => {
 
     setTimeout(() => {
         window.location.href = "/blog";
+    }, fadeTime);
+});
+
+btn4.addEventListener("click", () => {
+    blackscreen.classList.add("active");
+
+    const fadeTime = 3000;
+    const interval = 50;
+    const volumeStep = moosic.volume / (fadeTime / interval);
+
+    const fade = setInterval(() => {
+        moosic.volume = Math.max(0, moosic.volume - volumeStep);
+
+        if (moosic.volume <= 0) {
+            clearInterval(fade);
+        }
+    }, interval);
+
+    setTimeout(() => {
+        window.location.href = "https://loonuh.atabook.org/";
     }, fadeTime);
 });
