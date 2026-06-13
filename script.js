@@ -116,6 +116,11 @@ btn3.addEventListener("mouseenter", () => {
   mousehover.play();
 });
 
+btn4.addEventListener("mouseenter", () => {
+  mousehover.currentTime = 0;
+  mousehover.play();
+});
+
 btn3.addEventListener("click", () => {
     blackscreen.classList.add("active");
 
