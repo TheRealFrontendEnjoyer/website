@@ -125,3 +125,40 @@ btn.addEventListener("click", () => {
         window.location.href = "../";
     }, fadeTime);
 });
+
+(function () {
+  const layer = document.getElementById('ripple-layer');
+ 
+  document.addEventListener('click', function (e) {
+    const x = e.clientX;
+    const y = e.clientY;
+
+    var rings = [
+      { delay:   0, size: 48, opacity: 0.28 },
+      { delay: 130, size: 62, opacity: 0.18 },
+      { delay: 260, size: 76, opacity: 0.10 },
+    ];
+ 
+    rings.forEach(function (ring) {
+      setTimeout(function () {
+        var el = document.createElement('div');
+        el.className = 'ripple';
+ 
+        el.style.left   = (x - ring.size / 2) + 'px';
+        el.style.top    = (y - ring.size / 2) + 'px';
+        el.style.width  = ring.size + 'px';
+        el.style.height = ring.size + 'px';
+ 
+        el.style.borderColor = 'rgba(160, 100, 240, ' + ring.opacity + ')';
+ 
+        layer.appendChild(el);
+ 
+        setTimeout(function () {
+          el.remove();
+        }, 1500);
+
+      }, ring.delay);
+    });
+
+  });
+})();
