@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hell.</title>
+
+    <script>
+        const ref = document.referrer;
+        const allowed = ref.includes('/verify') || ref.endsWith('verify.html');
+
+        if (!allowed) {
+            history.back();
+        }
+    </script>
+    
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet">
 </head>

@@ -2,19 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>verifying...</title>
+    <title>Verifying...</title>
 </head>
 <body>
     <script>
-        const pwd = sessionStorage.getItem('pwd');
-        sessionStorage.removeItem('pwd');
+        const ref = document.referrer;
+        const allowed = ref.includes('/password') || ref.endsWith('password.html');
 
-        const CORRECT = 'yourpasswordhere';
-
-        if (pwd === CORRECT) {
-            window.location.href = '/quiz';
+        if (!allowed) {
+            history.back();
         } else {
-            window.location.href = '/password';
+            const pwd = sessionStorage.getItem('pwd');
+            sessionStorage.removeItem('pwd');
+
+            const CORRECT = 'yourpasswordhere';
+
+            if (pwd === CORRECT) {
+                window.location.href = '/quiz';
+            } else {
+                window.location.href = '/password';
+            }
         }
     </script>
 </body>
