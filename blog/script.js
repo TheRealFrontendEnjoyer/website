@@ -162,3 +162,16 @@ btn.addEventListener("click", () => {
 
   });
 })();
+
+const audio = document.getElementById('audioFile');
+const fill = document.querySelector('.np-bar-fill');
+
+function updateBar() {
+    if (audio.duration) {
+        const progress = (audio.currentTime / audio.duration) * 100;
+        fill.style.width = progress + '%';
+    }
+    requestAnimationFrame(updateBar);
+}
+
+updateBar();
