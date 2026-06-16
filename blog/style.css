@@ -579,3 +579,25 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 730px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 830px) {
+    .contentfooter {
+        width: 35vh;
+    }
+
+    .contentfooter h3 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 830px) {
+    .quickdesc {
+        font-size: 8px;
+    }
+}
