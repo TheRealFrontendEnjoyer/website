@@ -485,3 +485,21 @@ button.nav-link:hover {
     75%  { opacity: 1; }
     100% { opacity: 0.65; }
 }
+
+.centerthisbullshit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.centerthisbullshit h3 {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.centerthisbullshit img {
+    height: 150px;
+    width: auto;
+}
