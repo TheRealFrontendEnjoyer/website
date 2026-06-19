@@ -151,8 +151,34 @@ button {
 
 .dates {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-direction: column;
+
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scrollbar-width: thin;
+    scrollbar-color: rgba(210, 175, 255, 0.82) transparent;
+
+    padding-right: 10px;
+}
+
+.dates::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dates::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.dates::-webkit-scrollbar-thumb {
+    background: rgba(210, 175, 255, 0.82);
+    border-radius: 999px;
+}
+
+.dates::-webkit-scrollbar-thumb:hover {
+    background: rgba(210, 175, 255, 0.82);
 }
 
 .datename {
