@@ -42,6 +42,61 @@ const articles = {
             <p>Wish you all an amazing day!!!</p>
         `
     },
+
+    "too-much-in-my-head": {
+        pageTitle: 'Too much in my head.', // title tag
+        title: 'Too much in my head.', // title of the article itself
+        date: "11 july 2026", // date of the article
+        content: `
+            <p>Haven't been around this website for almost a month now.. Sorry about that!</p>
+
+            <p>There's been <b>WAY TOO MANY</b> worries in my head.. And I need to get them out somehow.</p>
+
+            <p>Last time, I spoke about the exams I did, I'm super proud of myself for it still! But something happened in the meantime..</p>
+
+            <p>Turns out, the lady that "verified" if my exam was good for correction, didn't proprely verify it! And that's something that's making me scared...</p>
+
+            <p>Still, I'll try not to worry about it!</p>
+
+            <p>There's also another thing that's been bothering my mind, which is.. Never feeling enough.</p>
+
+            <p>I've had a doctor tell me I have OCD, so I dunno if that could be related but I constantly feel like I gotta be perfect, and that's killing me.</p>
+
+            <p>If I do something that is (in my standards) not perfect, I will be anxious, I will fear, I will become way too cautious.</p>
+
+            <p>And this affects everyone! Random people, friends, friends of friends, best friends, family.</p>
+
+            <p>I think the most recent situation was today, I had my best friend (I LOVE THEM SO MUCH) call me while I was asleep. I usually keep my phone with sound in case someone needs me!</p>
+
+            <p>But for some reason, this time, I didn't wake up with the ringtone and I woke up feeling like the worst friend in the world.</p>
+
+            <p>Even though I know that they assumed that I didn't wake up with the call.</p>
+
+            <p>At this point, I just want to be normal. What does it mean to be normal?</p>
+
+            <p>Why do I need to have this curse that makes me want to be perfect and do everything perfectly?</p>
+
+            <p>Why can't I be like everyone else? Why can't I simply be happy and jolly and not worry about anything!?!?!?!?</p>
+
+            <p>But what I wanna say is, I rarely feel.. Well, myself. And it's horrible!</p>
+
+            <p>Body dysphoria's also been a <b>BITCH</b>!</p>
+
+            <p>Sadly, this trans bunny, due to her bone structure, will never have the chance to achieve the body she desires. x3</p>
+
+            <p><b>AND IT SUCKS SO MUCHHHHHH</b> because I have the perfect body to build muscle and look all buff and stoof but, I wanna do <b>THE COMPLETE OPPOSITE!!!!!!!!</b></p>
+            
+            <p>I wanna feel cute and pretty and super girly and feel okay with my body and representation!!!</p>
+
+            <p>And sadly, that's gonna be <b>SOOPER</b> hard..</p>
+
+            <p>The good news is, I should study a bit far away from home this year! So this means.. I'll have all the privacy in the world to get pretty clothes! :3</p>
+
+            <p>I already made a couple outfits in my mind to buy.. I'm so excited!!!</p>
+
+            <p>Well, that's it! Have a bunnytastic day!!!! &lt;3</p>
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
