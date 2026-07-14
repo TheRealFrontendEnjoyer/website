@@ -220,6 +220,13 @@ button {
 
 .content {
     width: 100%;
+
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    scrollbar-width: thin;
+    scrollbar-color: rgba(210, 175, 255, 0.82) transparent;
 }
 
 /* .content h1 {
