@@ -132,6 +132,33 @@ const articles = {
             <p>Have a bunnytastic day!!!! &lt;3</p>
         `
     },
+
+    "i-did-it": {
+        pageTitle: 'I did it! IM SO HAPPY', // title tag
+        title: 'I did it! IM SO HAPPY', // title of the article itself
+        date: "19 july 2026", // date of the article
+        content: `
+            <p>This article won't be long, specially because I don't got much time right now.. But!</p>
+
+            <p>I passed all my exams!!!! YAYYYYYYYYYYYYYY</p>
+
+            <p>That means I'll finally be able to study abroad and most importantly, I'll be able to study what I love.</p>
+            
+            <p>This year was crazy honestly.. I doubted myself multiple times, thought to myself that I wouldn't be able to make it.. And I did.</p>
+
+            <p>I got a okay-ish grade in Portuguese, I expected a bit more but I did pass! And in English, I got almost a perfect grade-</p>
+
+            <p>It's crazy to think that I got a higher grade on my second language than on my first-</p>
+
+            <p>Now comes the scariest part.. Getting into the university I want..</p>
+
+            <p>If I get at my first option, I'll be able to meet tons of people and be in a very pretty city!</p>
+
+            <p>I'll update y'all whenever I can!</p>
+
+            <p>Have a bunnytastic day!!!! &lt;3</p>
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
