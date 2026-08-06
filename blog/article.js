@@ -159,6 +159,71 @@ const articles = {
             <p>Have a bunnytastic day!!!! &lt;3</p>
         `
     },
+
+    "mental-health-and-linux": {
+        pageTitle: 'Mental Health and Linux', // title tag
+        title: 'Mental Health and Linux', // title of the article itself
+        date: "06 august 2026", // date of the article
+        content: `
+            <p>This article won't be long (maybe), I don't got a lot of energy or motivation for a long post...</p>
+
+            <p>I've been struggling with mental health a bit more lately and this my way to scream everything into the void.</p>
+
+            <p>Some time ago, I had a doctor tell me that I probably have OCD, I never thought of that possibility, and it honestly scares me.</p>
+
+            <p>The more time passes since that interaction, the more I worry over it and the more I realize how big that possibility is.</p>
+
+            <p>And it probably triggered something in my brain and now, the things that were hinting towards that, just became a million times worse.</p>
+
+            <p>I keep overthinking and overchecking small stuff like, "Have I turned off the stove?", "Did I lock the door?", "Did I park the car properly?" and the thing is, with everything I just said, before asking myself that, I always check 3 times and still, I make the same questions over and over again.</p>
+
+            <p>And now today, I realized that, everything that's a habit of mine, when the habit is broken, even if it's a super small thing, my brain can completely panic because "the thing I always do, somehow didn't happen how it was expected.".</p>
+
+            <p>I've been constantly living in this cycle, ever since I was a kid.</p>
+
+            <p>My parents never really forced me to have good grades or an amazing social life but still, everything I did never felt enough for them.</p>
+
+            <p>And for a maybe 9 year old kid, who feels like everything they do isn't good enough, it's something really hard to deal with.</p>
+
+            <p>So, when I was still a small kid, everything I did, it had to be perfect. And when that thing didn't go well, I punished myself for it.</p>
+
+            <p>Thankfully, when I grew up, maybe around 15, I realized I was doing everything too hard and I was being to harsh on myself over thing that don't require so much importance.</p>
+
+            <p>And sadly, when I was 17, I fell into the same bad habits. And they've been slowly and slowly getting worse.</p>
+
+            <p>I've been on the daily looking at myself and punishing myself for not having the "perfect" body. Because I exercise everyday, I eat stupidly healthy and still, I can't lose weight or even fat.</p>
+
+            <p>I've been on the daily trying to make sure I'm "perfect" in every friendship because if I can't be perfect, I probably am not worthy enough to have said friendship.</p>
+
+            <p>And all of this to say that, this is all SO STUPID! I'M GOOD ENOUGH, I WORK SUPER HARD, I SHOULD FEEL PROUD AND GOOD ABOUT MYSELF!</p>
+
+            <p>And yet.. I can't. Anyways, I might see a doctor soon to figure this out.</p>
+
+            <p>Now people of the internet, what does Linux have to do with all of this?</p>
+
+            <p>I recently made the switch from Windows to Linux because I got tired of Microslop's updates.</p>
+
+            <p>Why should an OS be so unoptimized and bloated, to the point where I have to manually debloat everything in my power and potentially break my system, just for it to revert with a random update that fixes something small and insignificant?</p>
+
+            <p>Windows is not entirely bad, it's amazing for casuals and even casuals or overall, anyone who wants a good experience out of the box.</p>
+
+            <p>Yet, I found myself looking for something faster, more stable. I already had CachyOS on my laptop for a while, but only for work, and decided to also switch on my main pc, to try gaming on it.</p>
+
+            <p>Bad news! Erm, some games I played don't run on Linux due to either developers hating Linux or the anti-cheat being incompatible.</p>
+
+            <p>Still, the other majority of the games that run on Linux, which is a majority I gotta say, run all better than on Windows!</p>
+
+            <p>Even for the games that have around the same frames, the stability is much better on Linux.</p>
+
+            <p>This is say, switch to Linux, you won't regret it.</p>
+
+            <p>You can customize everything, you can work like you would on Windows and you can perfectly game!</p>
+
+            <p>So ignore every hater who says otherwise! Try it out and make your own opinion!</p>
+
+            <p>Which you all an amazing day with lots of happiness and stoof! :3</p>
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
