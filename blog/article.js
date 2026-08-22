@@ -224,6 +224,82 @@ const articles = {
             <p>Which you all an amazing day with lots of happiness and stoof! :3</p>
         `
     },
+
+    "post-birthday-thoughts": {
+        pageTitle: 'Post Birthday thoughts.', // title tag
+        title: 'Post Birthday thoughts.', // title of the article itself
+        date: "22 august 2026", // date of the article
+        content: `
+            <p>Hey everyone! By everyone.. I mean maybe you, one of the only people reading this...</p>
+            <p>Before anything, it's possible that this post has mentions of mental health stuff.</p>
+            <p>Probably about my declining mental health.. Haha..</p>
+            <p>Well, today was my birthday! I became 21 today, (I mean, now yesterday, at the 21st) if I was an American, I could drink legally now!</p>
+            <p>I had a big party (by big, I mean my closest friends)! And it was super fun!</p>
+            <p>I'm not the type of person to be awake till late, when 10pm hits, I usually feel like going to bed.. Jeez, I'm getting old-</p>
+            <p>I remember staying up till 3am playing CS or Fortnite with friends like 7 years ago...</p>
+            <p>Still! We made pizza, laughed, played games! IT WAS SO MUCH FUN!</p>
+            <p>Well, but today was not all sunshine and rainbows, I really and I mean REALLY fucked up. And I.. Sadly don't know if I'll ever forgive myself... Or if I do! It'll take a long time...</p>
+            <p>To give some context, my mental health has never been the greatest... Ever since I was a teenager.</p>
+            <p>It had it's high and lows. But, it improved tons when I was around 18, so 3 years ago! But something care along with me "improving" and it's sadly making my mental health worse.</p>
+            <p>I think I might have OCD, I mean, I had a professional tell that to my face! But it wasn't a phychiatrist.. psychiatrist? How do you write that?</p>
+            <p>Well, it was a physiotherapist. I know they deal with a lot of people who have OCD and she noticed multiple patterns that usually point towards OCD, but, unlike my autism and ADHD, I don't have a diagnosis, so I'm gonna go out of my way and say "HEY! I HAVE OCD!".</p>
+            <p>I'm starting to get off track, so starting 3 years ago, I started feeling like I don't enjoy my birthdays much anymore. And usually, something negative happens on that day.</p>
+            <p>I rather not mention it, in this what happened the past few years, but this year was different.. In a bad way.</p>
+            <p>Lately, my paranoia's been A LOT worse. I constantly fear losing the ones closest to me, I constantly fear past events happening again, I have nightmares about it and it's been taking control of me at some point.</p>
+            <p>And, this year, I had some people tell me that they were going to make me birthday gifts, which I'm super thankful for!</p>
+            <p>But due to my growing paranoia and insecurities, I think I fear I might have done something irreversible...</p>
+            <p>So bear with me, because this is a long story.</p>
+            <p>From each day closest to my birthday, I started feeling mentally worse and worse. And one of my best friends helped me lots.</p>
+            <p>They heard my dumb thoughts and insecurities everyday for a week straight. And I'm so thankful for it.</p>
+            <p>And that same friend, told me that they were gonna give me two presents, one at mid-night and another in the morning.</p>
+            <p>The thing is, I've been getting huge trust issues lately. When I was a teen, let's say, at some point I was in a not so good friend group.</p>
+            <p>There's been multiple times where they canceled plans with me last minute to play with someone else, they excluded me, made fun of me and so on.</p>
+            <p>Because of this, I developed trust issues with compromisses. Whenever someone makes a promise, it could be hanging out, playing games, or anything that has commitment to it, my brain goes into overdrive.</p>
+            <p>And this sadly, happened to my best friend. I usually would keep this to myself and die out of stress and anxiety but, I trust them too much and decided to tell them how I felt. Multiple times a day even.</p>
+            <p>Yet, what's scariest, is that, they kept listening to me, even when they were tired, even when they were busy, even when they wanted to be alone, they listened to me, be afraid of the same thing over and over again.</p>
+            <p>There's no words to describe how grateful I am for their support and how much I love them.</p>
+            <p>But going back into topic, before my birthday, I kept asking them if they were gonna gift me something because I was way too afraid to create expectations, due to the past events I described.</p>
+            <p>They never showed being annoyed, they always supported and I'm scared about that. What if they were annoyed and didn't want to break my heart? What if they start getting tired of me?</p>
+            <p>Still, I held on.</p>
+            <p>At mid-night, they gave me an AMAZING gift, A SUPER CUTE DRAWING OF OUR FURSONAS TOGETHER!</p>
+            <p>I put it on the desktop, so I can appreciate it everyday.</p>
+            <p>But, the second gift, they told me that they were gonna give me in the morning and when morning came.. Nothing.</p>
+            <p>I got super anxious because I created an expectation and it wasn't met. The problem was not it being met but my brain took me back to all those times where my friends broke my expectations.</p>
+            <p>When they woke up, I called them and told them about how I felt anxious due to that and I felt dumb, I'll be honest but still, I rather be honest to them.</p>
+            <p>They were understanding and told me that they were gonna gift me it but didn't tell me a time, which made me feel a bit anxious-</p>
+            <p>I tried to brush it off but, 12pm became 2pm, 2pm became 4pm and still, no gift in sight.</p>
+            <p>I asked them about it twice more and now, looking back at the messages, it was clear that my insecurities took over.</p>
+            <p>In the end, they gave me a heart felt letter, handwritten, not physical but still, a meaningful letter and I cried.</p>
+            <p>I am so thankful for having them in my life.</p>
+            <p>But, I have gut feeling that, they might be getting tired of me.</p>
+            <p>It's very possible to be false! But still, I'm so anxious.</p>
+            <p>And then, there's another small thing that adds to it, which is.. Two of my best friends, we're a trio, including this best friend I mentioned.</p>
+            <p>But lately, they both have been spending lots of time together without me.</p>
+            <p>It's okay! We don't gotta do things together all the time.</p>
+            <p>But when it's everyday for hours and.. No one invites me, it becomes really hard to not feel left out.</p>
+            <p>I've told them that and, they mention me, wishing I was there with them, but due to them playing an MMO and being a lot further in the game, I guess that, there's no reason to invite me because I can't do the content with them.</p>
+            <p>Kinda breaks my heart but, it was what it is, I don't mind it!</p>
+            <p>But going back into topic, I'm scared. I dunno what to do.</p>
+            <p>I just wanna cry and cry and cry nonstop, in fear that I might lose one of the most precious people in my life.</p>
+            <p>Even if I might not lose them, it scares me.</p>
+            <p>I have notion that this is all me overthinking and that, these thoughts are not based on reality. But.. I'm shaking just by the thought of it.</p>
+            <p>What if they get tired of me? What if them both get tired of me? What if I get forgotten?</p>
+            <p>Again, this is all in my head. None of this is real.</p>
+            <p>I just wish I was perfect for everyone.. I wish I wasn't broken into pieces, I wish I was enough.</p>
+            <p>In the letter I got, my best friend mentioned that, I'm not my mistakes but what I learn from them. Which is true!</p>
+            <p>And they also mentioned that, I changed their life and they're super grateful for it and also grateful that I'm in their life, making them smile everyday.</p>
+            <p>In the end of the day, I guess I'm just afraid that.. I lose them.</p>
+            <p>Not only them, but everyone I deem precious.</p>
+            <p>I could theorize that I'm feeling like this, I mean so insecure constantly, overthinking because I'm gonna go through a new path in life, a scary one.</p>
+            <p>I never thought I would pass my exams, I never thought I would be able to make it this far. To be able to study what I love.</p>
+            <p>And I guess it's building up stress and stress creates anxiety.</p>
+            <p>I think that's all.</p>
+            <p>To whoever's reading this, if you made it this far, thank you for letting me speak my mind. &lt;3</p>
+            <p>And for those that didn't, that's fine! Thank you for giving my thoughts a space to breathe.</p>
+            <p>I hope everything ends up well.</p>
+            <p>Have a great night everybunny!</p>
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
