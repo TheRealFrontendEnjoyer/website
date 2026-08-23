@@ -300,6 +300,34 @@ const articles = {
             <p>Have a great night everybunny!</p>
         `
     },
+
+    "lil-update-from-the-last-post": {
+        pageTitle: 'Lil Update from the Last Post', // title tag
+        title: 'Lil Update from the Last Post', // title of the article itself
+        date: "23 august 2026", // date of the article
+        content: `
+            <p>Hey everybunny! I wanna give a little update from yesterday's post!</p>
+            <p>I came to the conclusion that I need professional help. I mean, I already knew this but reading the post again made me realize how much I need it.</p>
+            <p>There's a slight chance that I delete some posts, due to feeling like it's not good to keep them here.</p>
+            <p>This blog was created with the intention of sharing my thoughts but also share random stuff throughout the day. And it'll still be that way.</p>
+            <p>Thank you, the reader for giving my thoughts a space to breathe. Thank you for being patient enough to read through my ramblings.</p>
+            <p>But I'm geting off track.</p>
+            <p>Today, my paranoia got a million times worse. And I mean astronomically worse. To the point where, I can't stop shaking due to anxiety.</p>
+            <p>My fear of abandonment has been at a all time high, I fear to lose the ones closest to me and my brain at the moment is like "Hey! You're always doing something wrong! Everyone's gonna abandon you!".</p>
+            <p>All I can say is, I'm tired. I'm tired of this.</p>
+            <p>All I do every fucking day is trying my hardest and feeling like it's not enough.</p>
+            <p>Honestly, I'm a mess. A big mess.</p>
+            <p>Can I fix it? Sure! But it's gonna take a long long time.</p>
+            <p>Right now, there's a bigger worry in my head, which I, by myself, have decided to simply let it simmer.</p>
+            <p>I'm tired of letting my insecurities get the best of me.</p>
+            <p>I'm tired of letting my paranoia get the best of me.</p>
+            <p>I'm tired of letting my anxiety get the best of me.</p>
+            <p>I'm tired of letting my overthinking get the best of me.</p>
+            <p>I wanna be myself without any remorse.</p>
+            <p>But that's a conversation for another day.</p>
+            <p>Have a good night everyone!</p>
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
