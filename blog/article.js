@@ -328,6 +328,31 @@ const articles = {
             <p>Have a good night everyone!</p>
         `
     },
+
+    "life-update": {
+        pageTitle: 'Life Update.', // title tag
+        title: 'Life Update.', // title of the article itself
+        date: "13 september 2026", // date of the article
+        content: `
+            <p>Hey everybunny! I'm back once again.</p>
+            <p>Today should be a more positive post! I hope...</p>
+            <p>There's been a lot and I truly mean A LOT of things in my mind.</p>
+            <p>I've been dealing with a lot of past traumas, a lot of insecurity, a lot of anxiety.</p>
+            <p>Sadly, there's a lot of things that I could control within my head but lately, and by lately I mean in the last 30ish days, due to changes that are gonna happen in my life... I haven't been able to control said things.</p>
+            <p>By this, I mean triggers, fears, and all that jazz.</p>
+            <p>I've been sleeping between 4 and 6 hours a night, which is very little for me! I like to sleep at least 8!</p>
+            <p>But sadly, my body is constantly on alert, constantly creating insecurities and problems that shouldn't exist in the first place.</p>
+            <p>It's like my mind has it's own list of things to make up, and when an insecurity disappears, it's replaced by another one.</p>
+            <p>It sucks! It truly does. But I'm deeply greatful to have amazing best friends in my life that support me, no matter what.</p>
+            <p>Sure, I still fear, as of right now, I got anxious over something super small that triggered a past insecurity.</p>
+            <p>But at least, I have people around me who care and like seeing me well.</p>
+            <p>I'm still looking for professional help! Sadly with the fact that I'm moving out soon for studies, it's been a bit difficult... But it's getting there.</p>
+            <p>And I can now control my emotions better. It's not near perfect, but better than when I last wrote something here.</p>
+            <p>Future's looking bright, I can't wait!</p>
+            <p>Hope you all have a fantastic day! :D</p>
+
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
