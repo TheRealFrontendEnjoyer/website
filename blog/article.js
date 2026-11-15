@@ -353,6 +353,50 @@ const articles = {
 
         `
     },
+
+    "i-dunno-what-to-do-anymore": {
+        pageTitle: 'I dunno what to do anymore.', // title tag
+        title: 'I dunno what to do anymore.', // title of the article itself
+        date: "15 november 2026", // date of the article
+        content: `
+            <p>Hey everybunny! Oops- It's been a while since I wrote here...</p>
+            <p>Good news! I got into university! I'm studying abroad!</p>
+            <p>Bad news... Life's been rough...</p>
+            <p>I dunno how to say this but I feel like giving up from some stuff.</p>
+            <p>Without getting too much in-depth because honestly, I don't want to think too much about this...</p>
+            <p>I was improving, I was starting to be okay with being myself! And then... This friday, something happened that broke my heart in half.</p>
+            <p>I was starting to be proud of the person I was becoming, I was starting to speak more with strangers, I was starting to feel good about my life.</p>
+            <p>And because of a dumb decision of mine, all the progress I made is gone.</p>
+            <p>Gone is a strong word! But, it went downhill and I hurt one of the most important people in life in the progress.</p>
+            <p>Now, honestly, I can't even think straight... I just feel so uncomfortable in my own skin.</p>
+            <p>Ever since I decided to be myself fully, let me just be me. A clingy, needy and emotional person... I've only hurt those around me.</p>
+            <p>It's all my fault. It's always been.</p>
+            <p>Why did I think I could possibly change the loop?</p>
+            <p>Right now, my chest is heavy and the only way to actually be okay is to... Well, return to how I was before.</p>
+            <p>Someone who always agreed with others, someone easy to deal with, someone low-maintenance, at least what I showed was.</p>
+            <p>I don't think I'll ever be myself again. I don't think I'll ever be truly happy again.</p>
+            <p>If being myself only hurts others, then maybe I should just go back to being the person I was before.</p>
+            <p>Sure, I was miserable, but at least I made others happy, I never hurt anyone.</p>
+            <p>I'm sorry everyone... I failed you.</p>
+            <p>Maybe one day, I'll find a way to be okay with myself.</p>
+            <p>Maybe one day, I'll find a way to be myself.</p>
+            <p>Maybe one day... I can live freely with myself.</p>
+            <p>Yeah... One day.</p>
+            <p>But my heart can deal with anything anymore. It's broken.</p>
+            <p>And all I can do is cry and cry and cry and cry.</p>
+            <p>It's all my fault. And I apologize to myself.</p>
+            <p>I'm sorry Luna, when you truly were feeling good, I did this to you.</p>
+            <p>And now you can't be yourself anymore.</p>
+            <p>You're overthinking everything you do again.</p>
+            <p>You're analyzing everything you do again.</p>
+            <p>You're... Back to how you were before.</p>
+            <p>And I wish I could fix it.</p>
+            <p>Everything will be okay, I promise...</p>
+            <p>And to whoever's reading this, you're loved. Never forget that.</p>
+            <p>You reader! Keep being yourself, keep loving yourself!</p>
+            <p>Hope you have the greatest day!</p>
+        `
+    },
 };
 
 const params = new URLSearchParams(window.location.search);
